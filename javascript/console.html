@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		var obj = [{
+			'name': 'yash',
+			'rollno': 123,
+			'college':'Aec',
+			'branch': 'cse'
+		},
+		{
+			'name': 'ash',
+			'rollno': 123,
+			'college':'Aec',
+			'branch': 'cse'
+		},
+		{
+			'name': 'rash',
+			'rollno': 123,
+			'college':'Aec',
+			'branch': 'cse'
+		},
+		{
+			'name': 'trash',
+			'rollno': 123,
+			'college':'Aec',
+			'branch': 'cse'
+		}]
+		let text="";
+		// for (let i=0;i<obj.length;i++)
+		// {
+		// 	console.log(i+1,obj[i].name,obj[i].rollno,obj[i].college,obj[i].branch)
+		// 	text+=obj[i].name+"<br>"
+
+
+
+		// }
+
+
+
+
+
+
+		for (var i=0;i<obj.length;i++)
+		{
+			for (var key in obj[i])
+				{document.write(obj[i][key] +'<br>')}
+
+		}
+
+
+		console.log(text);
+		document.write(text);
+
+	</script>
+
+</body>
+</html>

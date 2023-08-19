@@ -1,0 +1,12 @@
+/*universal selector:this selector is applied to all html tags 
+except to the ones which are specifically applied using another selctor like class,id,element*/
+*{
+	font size:40px;
+	font-family:cursive;
+	color:darkcyan;
+}
+div{height: 40px;
+	width:60px;
+	background-color:darkred;
+
+}

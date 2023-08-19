@@ -1,0 +1,11 @@
+CSS
+Types:
+*inline styling-applying styles in html tags is known as inline styling
+*internal styling-applying styles in head tag and linked to body tag to apply any kind of internal or external styling we use selectors,by using selectors only we apply styles:
+   --->By using Class name[.abc{}]
+   --->By using id name[#abc{}]
+   --->By using element name
+   --->universal selector
+   --->Attribute
+       psuedo selector
+*external styling-

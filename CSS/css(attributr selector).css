@@ -1,0 +1,14 @@
+input[type]{
+	color:yellow;
+
+}
+input[type="text"]{
+	color:red;
+}
+input[type="number"]{
+	color:blue;
+
+}
+a[href]{
+	background-color:darkred;
+}
